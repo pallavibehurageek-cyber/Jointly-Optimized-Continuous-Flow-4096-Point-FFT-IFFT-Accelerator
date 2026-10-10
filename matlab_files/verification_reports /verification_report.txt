@@ -1,0 +1,20 @@
+=================================================
+        BS16 VERIFICATION REPORT
+=================================================
+
+FFT Size        : 16
+Word Length     : 16
+RTL Scaling     : 1/4
+Random Tests    : 20
+
+Generated Tests
+-----------------------------
+[PASS] Impulse Generated
+[PASS] DC Generated
+[PASS] Single Tone Generated
+[PASS] Complex Exponential Generated
+[PASS] 20 Random Vectors Generated
+
+Generation Status : SUCCESS
+
+===============================================
