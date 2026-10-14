@@ -1,0 +1,89 @@
+Run with ONE_IN_IN = 1:
+=== SAIF run: ONE_IN_N=1  (100.0% occupancy)  W_MEM=13 ===
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_occ_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1295.094 ; gain = 0.000
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+open_saif "occ_1.saif"
+saif1
+log_saif [get_objects -r /tb_occ/dut/*]
+get_objects: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1295.094 ; gain = 0.000
+run -all
+=== SAIF run: ONE_IN_N=1  (100.0% occupancy)  W_MEM=13 ===
+  1-in-1 (100.0%): M1=78.2 B1=69.6 C1=69.9 | M2=70.1 B2=69.6 C2=69.9 | M3=78.2 B3=69.6
+=== run complete - close_saif now ===
+$finish called at time : 29496 ns : File "C:/FPGA_Lab/SRIP2026/FFT4096_Novelty/FFT4096_Novelty.srcs/sim_1/new/tb_occ.v" Line 70
+close_saif
+
+Run with ONE_IN_IN = 2:
+=== SAIF run: ONE_IN_N=2  (50.0% occupancy)  W_MEM=13 ===
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_occ_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1295.094 ; gain = 0.000
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+open_saif "occ_2.saif"
+saif1
+log_saif [get_objects -r /tb_occ/dut/*]
+get_objects: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1295.094 ; gain = 0.000
+run -all
+=== SAIF run: ONE_IN_N=2  (50.0% occupancy)  W_MEM=13 ===
+  1-in-2 (50.0%): M1=82.0 B1=41.6 C1=43.1 | M2=43.9 B2=41.6 C2=43.1 | M3=82.0 B3=41.6
+=== run complete - close_saif now ===
+$finish called at time : 49976 ns : File "C:/FPGA_Lab/SRIP2026/FFT4096_Novelty/FFT4096_Novelty.srcs/sim_1/new/tb_occ.v" Line 70
+close_saif
+
+Run with ONE_IN_IN = 4:
+=== SAIF run: ONE_IN_N=4  (25.0% occupancy)  W_MEM=13 ===
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_occ_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1295.094 ; gain = 0.000
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+open_saif "occ_4.saif"
+saif1
+log_saif [get_objects -r /tb_occ/dut/*]
+get_objects: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1295.094 ; gain = 0.000
+run -all
+=== SAIF run: ONE_IN_N=4  (25.0% occupancy)  W_MEM=13 ===
+  1-in-4 (25.0%): M1=45.2 B1=22.9 C1=23.7 | M2=24.1 B2=22.9 C2=23.7 | M3=45.2 B3=22.9
+=== run complete - close_saif now ===
+$finish called at time : 90936 ns : File "C:/FPGA_Lab/SRIP2026/FFT4096_Novelty/FFT4096_Novelty.srcs/sim_1/new/tb_occ.v" Line 70
+close_saif
+
+Run with ONE_IN_IN = 8:
+=== SAIF run: ONE_IN_N=8  (12.5% occupancy)  W_MEM=13 ===
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_occ_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1188.559 ; gain = 14.172
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+open_saif "occ_8.saif"
+saif1
+log_saif [get_objects -r /tb_occ/dut/*]
+get_objects: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1198.910 ; gain = 0.000
+run -all
+=== SAIF run: ONE_IN_N=8  (12.5% occupancy)  W_MEM=13 ===
+  1-in-8 (12.5%): M1=23.8 B1=12.0 C1=12.5 | M2=12.7 B2=12.0 C2=12.5 | M3=23.8 B3=12.0
+=== run complete - close_saif now ===
+$finish called at time : 172856 ns : File "C:/FPGA_Lab/SRIP2026/FFT4096_Novelty/FFT4096_Novelty.srcs/sim_1/new/tb_occ.v" Line 70
+close_saif
+
+Run with ONE_IN_IN = 16:
+=== SAIF run: ONE_IN_N=16  (6.2% occupancy)  W_MEM=13 ===
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_occ_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1198.910 ; gain = 0.000
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+open_saif "occ_16.saif"
+saif1
+log_saif [get_objects -r /tb_occ/dut/*]
+get_objects: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1198.910 ; gain = 0.000
+run -all
+=== SAIF run: ONE_IN_N=16  (6.2% occupancy)  W_MEM=13 ===
+  1-in-16 (6.2%): M1=12.2 B1=6.2 C1=6.4 | M2=6.5 B2=6.2 C2=6.4 | M3=12.2 B3=6.2
+=== run complete - close_saif now ===
+$finish called at time : 336696 ns : File "C:/FPGA_Lab/SRIP2026/FFT4096_Novelty/FFT4096_Novelty.srcs/sim_1/new/tb_occ.v" Line 70
+close_saif
